@@ -29,7 +29,8 @@ async function loginUsuario() {
       console.error(data);
     } else {
       alert("Login realizado com sucesso!");
-      console.log(data);
+      localStorage.setItem('user', JSON.stringify(data));
+      location.href = "../HTML/home.html";
     }
   } catch (error) {
     alert(`Erro ao fazer login: ${error.message}`);
