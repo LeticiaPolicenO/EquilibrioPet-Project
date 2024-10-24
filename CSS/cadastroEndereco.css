@@ -150,7 +150,6 @@ button:hover{
         width: 100%;
         background-color: var(--cor-neutra); 
         border-radius: 15px;
-        border: 2px solid var(--cor-secundaria);
     }
 
     .inputBox{
