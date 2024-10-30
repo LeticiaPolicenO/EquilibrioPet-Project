@@ -100,7 +100,7 @@ header .cadastroExit:hover{
 }
 
 
-@media (max-width: 450){
+@media (max-width: 500){
     header nav ul li a{
         display: none;
     }
